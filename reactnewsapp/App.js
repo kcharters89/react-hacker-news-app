@@ -1,12 +1,16 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-
+import HackerNewsPosts from './hacktop';
+import HackerJobPosts from './hackjob';
+import HackerBestPosts from './hackbest'
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
+      <Text></Text>
+      <HackerNewsPosts/>
+      <HackerJobPosts/>
+      <HackerBestPosts/>
     </View>
   );
 }
