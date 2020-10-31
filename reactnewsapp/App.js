@@ -1,12 +1,16 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import hackerapi from './hacknewsapi'
-
+import HackerNewsPosts from './hacktop';
+import HackerJobPosts from './hackjob';
+import HackerBestPosts from './hackbest'
 export default function App() {
   return (
     <View style={styles.container}>
-      <hackerapi></hackerapi>
+      <Text></Text>
+      <HackerNewsPosts/>
+      <HackerJobPosts/>
+      <HackerBestPosts/>
     </View>
   );
 }
