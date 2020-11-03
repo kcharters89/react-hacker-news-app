@@ -5,7 +5,9 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import HackerNewsPosts from './hacktop';
 import HackerJobPosts from './hackjob';
-import HackerBestPosts from './hackbest'
+import HackerBestPosts from './hackbest';
+import SplashImage from './SplashImage';
+
 
 
 
@@ -24,6 +26,7 @@ function MyTabs() {
 export default function App() {
   return (
     <NavigationContainer>
+      <SplashImage></SplashImage>
       <MyTabs />
     </NavigationContainer>
   );
